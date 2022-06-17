@@ -1,6 +1,3 @@
-# Yaribed-Romero
-#Listas, indicar el código
-
 lista = ["1", "2", "3", "4"]
 valor = input("ingrese un valor: ")
 
