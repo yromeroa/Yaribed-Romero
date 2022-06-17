@@ -5,10 +5,11 @@ contador = 0
 encontrado = False
 
 for i in lista:
+  contador += 1
   if i == valor:
     print("su indice es", contador)
-    contador += 1
     encontrado = True
     break
+  
 if encontrado == False:  
   print("el número no esta en la lista")
